@@ -39,7 +39,8 @@ public class Main {
 
         long partialSum1 = adder1.getSum();
         long partialSum2 = adder2.getSum();
-
+   
+        
         long sum = partialSum1 + partialSum2; // The sum is always 0. Fix it.
 
         System.out.println(sum);
